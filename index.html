@@ -11,11 +11,19 @@
   <link rel="stylesheet" href="dist/theme/white.css" />
   <link rel="stylesheet" href="css/artistwebsite.css" />
   <link rel="stylesheet" href="css/uikit.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins/menu/font-awesome/css/fontawesome.css">
   <script src="js/uikit.min.js"></script>
 
   <style>
     .make-it-pop {
       filter: drop-shadow(0 0 10px purple);
+    }
+
+    .fragment.visible:not(.current-fragment) {
+      display: none;
+      height: 0px;
+      line-height: 0px;
+      font-size: 0px;
     }
   </style>
 </head>
@@ -32,6 +40,14 @@
   <script src="dist/reveal.js"></script>
   <script src="plugin/markdown/markdown.js"></script>
   <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script src="plugin/chalkboard/plugin.js"></script>
+  <script src="plugin/customcontrols/plugin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <link rel="stylesheet" href="plugin/highlight/zenburn.css">
+  <link rel="stylesheet" href="plugin/chalkboard/style.css">
+  <link rel="stylesheet" href="plugin/customcontrols/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
     // More info about initialization & config:
     // - https://revealjs.com/initialization/
@@ -43,7 +59,28 @@
       progress: false,
       transition: 'fade',
       hideCursorTime: 100,
-      plugins: [RevealMarkdown, RevealNotes],
+      highlight: {
+      },
+      customcontrols: {
+        controls: [
+          {
+            icon: '<i class="fa fa-pen-square"></i>',
+            title: 'Toggle chalkboard (B)',
+            action: 'RevealChalkboard.toggleChalkboard();'
+          },
+          {
+            icon: '<i class="fa fa-pen"></i>',
+            title: 'Toggle notes canvas (C)',
+            action: 'RevealChalkboard.toggleNotesCanvas();'
+          }
+        ]
+      },
+      chalkboard: {
+        storage: document.title,
+        src: "/drawing/chalkboard.json",
+        theme: "blackboard"
+      },
+      plugins: [RevealMarkdown, RevealNotes, RevealHighlight, RevealChalkboard, RevealCustomControls],
     });
     Reveal.on('make-it-pop', () => {
       console.log('✨');
