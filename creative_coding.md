@@ -38,7 +38,7 @@ function draw() {
   background(3, 169, 244);
   image(img, x_pos, 100);
 
-  if (x_pos > 400 + img.width) {
+  if (x_pos > img.width) {
     x_pos = -img.width;
   }
   
@@ -404,9 +404,9 @@ function draw() {
 <!-- .slide: class="uk-column-1-2 uk-column-divider uk-vertical-align-middle" -->  
 Bundle up code into a package.
 
-<img src="/assets/sandin.jpg" style="width: 600px"></img>
+<img src="/ATS_Practices_Week9/assets/sandin.jpg" style="width: 600px"></img>
 
-<img src="/assets/osc_module.jpg" style="width: 600px"></img>
+<img src="/ATS_Practices_Week9/assets/osc_module.jpg" style="width: 600px"></img>
 
 ---
 
@@ -792,5 +792,3 @@ function draw() {
 #### Collaborative P5js
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/7HubjUPIftQ?si=iL-dd5GV9Z41CGEY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
