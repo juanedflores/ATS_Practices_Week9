@@ -411,7 +411,7 @@ Bundle up code into a package.
 ---
 
 #### Reusability
-Use a single line of code to call the a large block of code again and again anywhere you want.
+Use a single line of code to call the large block of code again and again anywhere you want.
 
 ---
 
