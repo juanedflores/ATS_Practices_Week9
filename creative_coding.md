@@ -15,7 +15,7 @@ Motion/Animation <!-- .element: class="fragment" -->
 
 <embed type="text/html" src="p5js_sketches/mario_cloud/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z_xq_6Yda" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z_xq_6Yda" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -27,7 +27,7 @@ Motion/Animation <!-- .element: class="fragment" -->
 let x_pos = 0;
 
 function preload() {
-  img = loadImage('/ATS_Practices_Week9/assets/cloud.png');
+  img = loadImage('/assets/cloud.png');
 }
 
 function setup() {
@@ -49,7 +49,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/mario_cloud/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -59,7 +59,7 @@ function draw() {
 <pre>
 <code>
 function preload() {
-  dvd = loadImage('/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -75,7 +75,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -87,7 +87,7 @@ function draw() {
 let x_pos = 200;
 
 function preload() {
-  dvd = loadImage('/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -105,7 +105,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -117,7 +117,7 @@ function draw() {
 let x_pos = 200;
 
 function preload() {
-  dvd = loadImage(/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -135,7 +135,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo2/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -148,7 +148,7 @@ let x_pos = 200;
 let dir = 1;
 
 function preload() {
-  dvd = loadImage(/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -173,7 +173,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo3/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -201,7 +201,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo4/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -236,7 +236,7 @@ x_pos = x_pos + dir;
 </code> <!-- .element: class="data-line-numbers" style="font-size: 15px" data-line-numbers="1-6" -->
 </pre>
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -251,7 +251,7 @@ let y_pos = 200;
 let y_dir = 1;
 
 function preload() {
-  dvd = loadImage(/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -278,7 +278,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo5/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -296,7 +296,7 @@ let g = 125;
 let b = 125;
 
 function preload() {
-  dvd = loadImage(/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -335,7 +335,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo6/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -353,7 +353,7 @@ let g = 125;
 let b = 125;
 
 function preload() {
-  dvd = loadImage(/ATS_Practices_Week9/assets/dvd.png');
+  dvd = loadImage('/assets/dvd.png');
 }
 
 function setup() {
@@ -394,7 +394,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/dvd_logo6/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/nuHR1Y2LV" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -404,9 +404,9 @@ function draw() {
 <!-- .slide: class="uk-column-1-2 uk-column-divider uk-vertical-align-middle" -->  
 Bundle up code into a package.
 
-<img src=/ATS_Practices_Week9/assets/sandin.jpg" style="width: 600px"></img>
+<img src="/assets/sandin.jpg" style="width: 600px"></img>
 
-<img src=/ATS_Practices_Week9/assets/osc_module.jpg" style="width: 600px"></img>
+<img src="/assets/osc_module.jpg" style="width: 600px"></img>
 
 ---
 
@@ -459,7 +459,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -493,7 +493,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird2/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -527,7 +527,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird3/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 ---
 
@@ -566,7 +566,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird4/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -605,7 +605,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird5/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -635,7 +635,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird6/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -660,7 +660,7 @@ function bird(start_X, start_Y) {
 
 <embed type="text/html" src="p5js_sketches/bird6/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -681,7 +681,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird7/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -706,7 +706,7 @@ function bird(start_X, start_Y) {
 
 <embed type="text/html" src="p5js_sketches/bird8/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -753,7 +753,7 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird9/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
@@ -784,18 +784,12 @@ function draw() {
 
 <embed type="text/html" src="p5js_sketches/bird10/index.html" width="400px" height="400px">
 
-<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="/ATS_Practices_Week9/assets/p5-logo.svg" width="60px"></img></a>
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
 
 
 ---
 
 #### Collaborative P5js
-
-<iframe width="800" height="600" src="https://www.youtube.com/embed/7HubjUPIftQ?si=iL-dd5GV9Z41CGEY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-#### Ted Davis
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/7HubjUPIftQ?si=iL-dd5GV9Z41CGEY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

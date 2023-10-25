@@ -1,7 +1,7 @@
 let x_pos = 0;
 
 function preload() {
-  img = loadImage('/assets/cloud1.png');
+  img = loadImage('/ATS_Practices_Week9/assets/cloud1.png');
 }
 
 function setup() {
@@ -12,10 +12,6 @@ function setup() {
 function reset() {
   x_pos = -img.width;
 }
-
-// function mousePressed() {
-//   reset();
-// }
 
 function draw() {
   background(3, 169, 244);

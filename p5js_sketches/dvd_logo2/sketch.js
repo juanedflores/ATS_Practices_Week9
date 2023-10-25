@@ -1,7 +1,7 @@
 let x_pos = 200;
 
 function preload() {
-  dvd = loadImage('/assets/dvd.png');
+  dvd = loadImage('/ATS_Practices_Week9/assets/dvd.png');
 }
 
 function setup() {
