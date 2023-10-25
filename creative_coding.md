@@ -9,6 +9,8 @@ Motion/Animation <!-- .element: class="fragment" -->
 
 <embed type="text/html" src="p5js_sketches/simple_sine/index.html" width="400px" height="400px"> <!-- .element: class="fragment" -->
 
+<a href="https://editor.p5js.org/JuanEdFlores/sketches/Z3wA715Xe" style="display: block; float: right;"><img src="./assets/p5-logo.svg" width="60px"></img></a>
+
 ---
 
 #### Incrementation
