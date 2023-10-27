@@ -13,7 +13,7 @@ function draw() {
   background(200);
   image(dvd, x_pos, 200, 80, 60);
 
-  if ((x_pos > width - 80) | (x_pos < 0)) {
+  if (x_pos > width - 80 || x_pos < 0) {
     dir = dir * -1;
   }
 
