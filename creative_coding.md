@@ -230,7 +230,7 @@ x_pos = x_pos + dir;
 
 <pre style="width:500px">
 <code>
-if ((x_pos > width - 80) || (x_pos < 0)) {
+if ((x_pos > width - 80) | (x_pos < 0)) {
   dir = dir * -1;
 }
 
@@ -264,11 +264,11 @@ function draw() {
   background(200);
   image(dvd, x_pos, y_pos, 80, 60);
 
-  if ((x_pos > width - 80) || (x_pos < 0)) {
+  if ((x_pos > width - 80) | (x_pos < 0)) {
     x_dir = x_dir * -1;
   }
 
-  if ((y_pos > height - 60) || (y_pos < 0)) {
+  if ((y_pos > height - 60) | (y_pos < 0)) {
     y_dir = y_dir * -1;
   }
 
@@ -310,14 +310,14 @@ function draw() {
   tint(r, g, b);
   image(dvd, x_pos, y_pos, 80, 60);
 
-  if ((x_pos > width - 80) || (x_pos < 0)) {
+  if ((x_pos > width - 80) | (x_pos < 0)) {
     x_dir = x_dir * -1;
     r = random(255);
     g = random(255);
     b = random(255);
   }
 
-  if ((y_pos > height - 60) || (y_pos < 0)) {
+  if ((y_pos > height - 60) | (y_pos < 0)) {
     y_dir = y_dir * -1;
     r = random(255);
     g = random(255);
@@ -373,12 +373,12 @@ function draw() {
   tint(r, g, b);
   image(dvd, x_pos, y_pos, 80, 60);
 
-  if ((x_pos > width - 80) || (x_pos < 0)) {
+  if ((x_pos > width - 80) | (x_pos < 0)) {
     x_dir = x_dir * -1;
     randomColors();
   }
 
-  if ((y_pos > height - 60) || (y_pos < 0)) {
+  if ((y_pos > height - 60) | (y_pos < 0)) {
     y_dir = y_dir * -1;
     randomColors();
   }
